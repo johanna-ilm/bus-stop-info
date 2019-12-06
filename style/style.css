@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    background-color: #f4f4f4;
+    color: #232020;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+
+a {
+    color: #e06c00;
+    text-decoration: none;
+}
+
+footer {
+    color: #3a3535;
+    font-size: smaller;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 0 1em;
+    max-width: 850px;
+    font-style: italic;
+}
+
+h1 {
+    background-color: #fab73a;
+    color: white;
+    margin: 0 0 1em;
+    padding: 0.8em 1em;
+}
+
+h2 {
+    background-color: #dadada;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0.8em 1.5em 0.6em;
+}
+
+span {
+    color: #232020;
+    font-weight: normal;
+    font-size: smaller;
+    padding-left: 1em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    vertical-align: bottom;
+    padding: 1em;
+}
+
+tbody > tr:hover {
+    background-color: #f4f4f4;
+}
+
+td {
+    padding: 0.3em 1em;
+}
+
+.columns {
+    background-color: white;
+    columns: 200px 4;
+    padding: 1.5em 2em;
+
+}
+
+.intendation {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.expected {
+    color: #ff7315;
+    font-weight: bold;
+    text-align: center;
+}
+
+.route {
+    min-width: 120px;
+}
+
+.table-wrapper {
+    background-color: white;
+    padding: 0.5em 0 1.5em;
+}
+
+#expected-th {
+    color: #232020;
+}
+
+#intro {
+    margin-bottom: 2em;
+}
+
+#line-th {
+    padding: 1em 0 1em 1em;
+}
+
+
+
+#table-footer {
+    font-size: 0.9rem;
+}
+
+#updated {
+    font-size: 0.9rem;
+    padding: 0 1em;
+}

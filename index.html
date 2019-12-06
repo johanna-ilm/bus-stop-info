@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Raision Föli-pysäkit</title>
+</head>
+
+<body onLoad="fetchBusStopData();">
+    <h1>Raision Föli-pysäkit</h1>
+
+    <p id="intro" class="intendation">Saat bussien reaaliaikaiset aikataulutiedot näkyviin klikkaamalla haluamaasi
+        pysäkkiä.</p>
+
+    <div id="response" class="columns"></div>
+
+    <footer>
+        Lähde: Turun seudun joukkoliikenteen liikennöinti- ja aikatauludata. Aineiston ylläpitäjä on Turun kaupungin
+        joukkoliikennetoimisto. Aineisto on ladattu palvelusta <a href="http://data.foli.fi"
+            target="_blank">http://data.foli.fi</a> lisenssillä Creative Commons Nimeä
+        4.0 Kansainvälinen (CC BY 4.0).
+    </footer>
+
+    <script src="js/fetch.js"></script>
+</body>
+
+</html>

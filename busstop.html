@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Seuraavat bussit pysäkillä</title>
+</head>
+
+<body onLoad="fetchBusStopDataById();">
+    <h2>Seuraavat bussit pysäkillä:</h2>
+    <h1 id="bus-stop-header"></h1>
+    <p id="updated"></p>
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th id="line-th">Linja</th>
+                    <th class="route">Määränpää</th>
+                    <th id="expected-th" class="expected">Tämänhetkinen arvioitu <br>saapumisaika pysäkille</th>
+                </tr>
+            </thead>
+            <tbody id="response">
+            </tbody>
+        </table>
+    </div>
+    <p id="table-footer" class="intendation">Sulkeissa aikataulun mukainen saapumisaika pysäkille.</p>
+    <footer>Lähde: Turun seudun joukkoliikenteen liikennöinti- ja aikatauludata. Aineiston ylläpitäjä on Turun kaupungin
+        joukkoliikennetoimisto. Aineisto on ladattu palvelusta <a href="http://data.foli.fi"
+            target="_blank">http://data.foli.fi</a> lisenssillä Creative Commons Nimeä
+        4.0 Kansainvälinen (CC BY 4.0).</footer>
+
+    <script src="js/busstop.js"></script>
+</body>
+
+</html>
