@@ -9,7 +9,7 @@ fetchBusStopDataById = () => {
 	document.getElementById('bus-stop-header').innerHTML = stopId + " " + stopName;
 
 	// Fetch data with bus stop id number
-	fetch('http://data.foli.fi/siri/sm/' + stopId)
+	fetch(' https://cors-anywhere.herokuapp.com/http://data.foli.fi/siri/sm/' + stopId)
 		.then((response) => response.json())
 		.then((busStop) => {
 			let output = "";

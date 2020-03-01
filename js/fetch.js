@@ -1,6 +1,6 @@
 // Function that fetches static Turku area bus stop data from data.foli.fi 
 fetchBusStopData = () => {
-	fetch('http://data.foli.fi/gtfs/stops')
+	fetch(' https://cors-anywhere.herokuapp.com/http://data.foli.fi/gtfs/stops')
 		.then((response) => response.json())
 		.then((busStops) => {
 			// Data is in objects of an object. Make an array of object values.
